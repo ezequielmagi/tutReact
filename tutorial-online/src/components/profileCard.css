@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+  font-size: 'Roboto';
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  padding: 1em;
+}
+
+.profileCardContainer{
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px 1px rgb(106, 106, 107);
+  background: #fafafa;
+  width: 300px;
+  padding: 0.5em;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+
+.profileContainer--data{
+  padding: 0.5em;
+}
+
+.profileTitle{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+img{
+  border-radius: 150px;
+    box-shadow: 1px 1px 4px 1px rgb(106, 106, 107);
+  max-width: 350px;
+  width: 100px;
+  
+}
